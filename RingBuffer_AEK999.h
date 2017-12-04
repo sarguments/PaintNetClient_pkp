@@ -5,7 +5,7 @@ class CRingBuffer
 public:
 	enum e_Size
 	{
-		DEFAULT_SIZE = 1000,
+		DEFAULT_SIZE = 3000,
 		TEST_SIZE = 20
 	};
 
