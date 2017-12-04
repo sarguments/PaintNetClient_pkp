@@ -47,7 +47,7 @@ CCmdStart::CCmdStart()
 CCmdStart::~CCmdStart()
 {
 	timeEndPeriod(1);
-	//FreeConsole();
+	FreeConsole();
 }
 
 void CCmdStart::CmdDebugText(WCHAR* text, bool bParam)
